@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-ProtoType</title>
+  <desc id="desc">Icono oficial de NVTS-ProtoType, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#155334"/>
+  
+<g fill="none" stroke="#9BE7B1" stroke-width="30" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M105 256h82 M187 256l69-94 M187 256l69 94 M256 162h91 M256 350h91"/>
+  <rect x="69" y="220" width="72" height="72"/>
+  <rect x="347" y="126" width="90" height="72"/>
+  <rect x="347" y="314" width="90" height="72"/>
+  <path d="M370 162l18 18 32-40"/>
+</g>
+</svg>

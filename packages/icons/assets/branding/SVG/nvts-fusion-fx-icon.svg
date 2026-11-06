@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-FusionFX</title>
+  <desc id="desc">Icono oficial de NVTS-FusionFX, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#805008"/>
+  
+<g fill="#FFE08A">
+  <path d="M256 75l34 135 135 46-135 46-34 135-34-135-135-46 135-46z"/>
+  <path d="M394 102l15 55 55 15-55 15-15 55-15-55-55-15 55-15z"/>
+  <path d="M111 304l12 43 43 12-43 12-12 43-12-43-43-12 43-12z"/>
+</g>
+</svg>

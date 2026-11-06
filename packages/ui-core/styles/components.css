@@ -1,0 +1,502 @@
+/* ========================================================================== */
+/* 2. Reusable components: buttons, panels, toolbars, dialogs and shell. */
+/* ========================================================================== */
+
+.nvts-ui-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    gap: 8px;
+    padding: 7px 12px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-control-bg);
+    color: var(--nvts-text);
+    cursor: pointer;
+    transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.nvts-ui-button:hover:not(:disabled) {
+    border-color: var(--nvts-accent);
+}
+
+.nvts-ui-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.nvts-ui-button--primary {
+    border-color: var(--nvts-accent);
+    background: var(--nvts-accent);
+    color: #ffffff;
+}
+
+.nvts-ui-button--primary:hover:not(:disabled) {
+    background: var(--nvts-accent-hover);
+}
+
+.nvts-ui-button--ghost {
+    border-color: transparent;
+    background: transparent;
+}
+
+.nvts-ui-button--danger {
+    border-color: #a8323d;
+    background: #a8323d;
+    color: #ffffff;
+}
+
+.nvts-ui-panel {
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-md);
+    background: var(--nvts-surface);
+    color: var(--nvts-text);
+    box-shadow: var(--nvts-shadow);
+}
+
+.nvts-ui-panel__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 42px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--nvts-border);
+}
+
+.nvts-ui-panel__header h2 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.nvts-ui-panel__body {
+    padding: 12px;
+}
+
+.nvts-ui-toolbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-width: 0;
+}
+
+.nvts-ui-dialog {
+    width: min(560px, calc(100vw - 32px));
+    max-height: min(80vh, 720px);
+    padding: 0;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-lg);
+    background: var(--nvts-surface);
+    color: var(--nvts-text);
+    box-shadow: var(--nvts-shadow);
+}
+
+.nvts-ui-dialog::backdrop {
+    background: rgb(0 0 0 / 48%);
+    backdrop-filter: blur(2px);
+}
+
+.nvts-ui-dialog h2 {
+    margin: 0;
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--nvts-border);
+    font-size: 1rem;
+}
+
+.nvts-ui-dialog__body {
+    padding: 18px;
+    overflow: auto;
+}
+
+.nvts-ui-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+}
+
+.nvts-product-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--nvts-bg);
+    color: var(--nvts-text);
+}
+
+.nvts-product-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+    gap: 16px;
+    padding: 10px 18px;
+    border-bottom: 1px solid var(--nvts-border);
+    background: var(--nvts-surface);
+}
+
+.nvts-product-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.nvts-product-brand img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.nvts-product-identity {
+    display: grid;
+    gap: 2px;
+}
+
+.nvts-product-identity strong {
+    font-size: 0.95rem;
+}
+
+.nvts-product-identity span,
+.nvts-product-sidebar p,
+.nvts-product-description {
+    color: var(--nvts-text-muted);
+}
+
+.nvts-ui-theme-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+}
+
+.nvts-ui-theme-control select {
+    min-height: 34px;
+    padding: 6px 10px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-control-bg);
+}
+
+.nvts-product-toolbar {
+    min-height: 44px;
+    padding: 6px 18px;
+    border-bottom: 1px solid var(--nvts-border);
+    background: var(--nvts-surface-raised);
+}
+
+.nvts-product-toolbar__label {
+    color: var(--nvts-text-muted);
+    font-size: 0.84rem;
+    font-weight: 600;
+}
+
+.nvts-product-workspace {
+    display: grid;
+    grid-template-columns: minmax(190px, 240px) minmax(0, 1fr);
+    flex: 1;
+    min-height: 0;
+}
+
+.nvts-product-sidebar {
+    padding: 18px;
+    border-right: 1px solid var(--nvts-border);
+    background: var(--nvts-surface);
+}
+
+.nvts-product-sidebar strong {
+    font-size: 0.86rem;
+}
+
+.nvts-product-sidebar p {
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.nvts-product-stage {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 12px;
+    min-width: 0;
+    min-height: 360px;
+    padding: 32px;
+    text-align: center;
+}
+
+.nvts-product-stage h1 {
+    margin: 0;
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
+}
+
+.nvts-product-description {
+    max-width: 720px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.nvts-product-status {
+    min-height: 30px;
+    padding: 7px 18px;
+    border-top: 1px solid var(--nvts-border);
+    color: var(--nvts-text-muted);
+    font-size: 0.76rem;
+}
+
+/* ========================================================================== */
+/* 3. Reusable menus, tool palettes, docking panels, history and timeline. */
+/* ========================================================================== */
+
+.nvts-ui-menu {
+    position: relative;
+    color: var(--nvts-text);
+}
+
+.nvts-ui-menu summary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 6px 10px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-control-bg);
+    cursor: pointer;
+    list-style: none;
+}
+
+.nvts-ui-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.nvts-ui-menu__items {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 4px);
+    left: 0;
+    display: grid;
+    min-width: 190px;
+    gap: 2px;
+    padding: 6px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-md);
+    background: var(--nvts-surface);
+    box-shadow: var(--nvts-shadow);
+}
+
+.nvts-ui-menu__item {
+    min-height: 34px;
+    padding: 7px 10px;
+    border: 0;
+    border-radius: var(--nvts-radius-sm);
+    background: transparent;
+    color: var(--nvts-text);
+    text-align: left;
+    cursor: pointer;
+}
+
+.nvts-ui-menu__item:hover:not(:disabled),
+.nvts-ui-menu__item:focus-visible {
+    background: var(--nvts-accent-subtle);
+}
+
+.nvts-ui-menu__item:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.nvts-ui-tool-palette {
+    align-items: stretch;
+}
+
+.nvts-ui-tool-palette__tool {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    min-height: 36px;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid transparent;
+    border-radius: var(--nvts-radius-sm);
+    background: transparent;
+    color: var(--nvts-text);
+    cursor: pointer;
+}
+
+.nvts-ui-tool-palette__tool:hover,
+.nvts-ui-tool-palette__tool.is-selected {
+    border-color: var(--nvts-accent);
+    background: var(--nvts-accent-subtle);
+}
+
+.nvts-ui-dock-workspace {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-content: start;
+    gap: 10px;
+    min-width: 0;
+}
+
+.nvts-ui-dock-panel {
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-md);
+    background: var(--nvts-surface);
+    color: var(--nvts-text);
+}
+
+.nvts-ui-dock-panel__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--nvts-border);
+}
+
+.nvts-ui-dock-panel__header h2 {
+    margin: 0;
+    font-size: 0.86rem;
+}
+
+.nvts-ui-dock-panel__controls {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.nvts-ui-dock-panel__controls button {
+    min-width: 28px;
+    min-height: 28px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-control-bg);
+    color: var(--nvts-text);
+    cursor: pointer;
+}
+
+.nvts-ui-dock-panel__body {
+    min-width: 0;
+    padding: 10px;
+}
+
+.nvts-ui-history {
+    display: grid;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nvts-ui-history button {
+    width: 100%;
+    padding: 7px 9px;
+    border: 1px solid transparent;
+    border-radius: var(--nvts-radius-sm);
+    background: transparent;
+    color: var(--nvts-text);
+    text-align: left;
+    cursor: pointer;
+}
+
+.nvts-ui-history button.is-active {
+    border-color: var(--nvts-accent);
+    background: var(--nvts-accent-subtle);
+}
+
+.nvts-ui-timeline {
+    display: grid;
+    gap: 10px;
+    min-width: 0;
+    overflow-x: auto;
+}
+
+.nvts-ui-timeline h2 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.nvts-ui-timeline__track {
+    position: relative;
+    display: grid;
+    gap: 6px;
+    min-width: 100%;
+    min-height: 72px;
+    margin: 0;
+    padding: 8px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-surface-muted);
+    list-style: none;
+}
+
+.nvts-ui-timeline__item {
+    position: relative;
+    left: var(--timeline-start, 0px);
+    width: max(48px, var(--timeline-duration, 80px));
+    min-height: 28px;
+    padding: 5px 8px;
+    overflow: hidden;
+    border: 1px solid var(--nvts-accent);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-accent-subtle);
+    color: var(--nvts-text);
+    font-size: 0.78rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ========================================================================== */
+/* 4. Responsive rules. Keep all breakpoints at the end of the stylesheet. */
+/* ========================================================================== */
+
+@media (max-width: 760px) {
+    .nvts-product-workspace {
+        grid-template-columns: 1fr;
+    }
+
+    .nvts-product-sidebar {
+        display: none;
+    }
+
+    .nvts-product-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .nvts-product-header,
+    .nvts-product-toolbar {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .nvts-product-stage {
+        min-height: 300px;
+        padding: 20px 14px;
+    }
+
+    .nvts-ui-theme-control {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

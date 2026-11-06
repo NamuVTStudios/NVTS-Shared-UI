@@ -1,0 +1,28 @@
+{
+    "name": "@nvts/shared-ui",
+    "version": "0.2.0",
+    "private": false,
+    "type": "module",
+    "license": "MIT",
+    "description": "Reusable NVTS design system, UI primitives, theme management, commands, docking and timeline contracts.",
+    "files": [
+        "packages"
+    ],
+    "exports": {
+        ".": {
+            "types": "./packages/ui-core/src/index.d.ts",
+            "import": "./packages/ui-core/src/index.mjs"
+        },
+        "./styles/theme.css": "./packages/ui-core/styles/theme.css",
+        "./styles/components.css": "./packages/ui-core/styles/components.css",
+        "./icons/manifest": "./packages/icons/src/manifest.json",
+        "./icons/ui/*": "./packages/icons/assets/ui/*",
+        "./icons/tools/*": "./packages/icons/assets/tools/*",
+        "./icons/brand/svg/*": "./packages/icons/assets/branding/svg/*",
+        "./icons/brand/png/*": "./packages/icons/assets/branding/png/*"
+    },
+    "scripts": {
+        "test": "node --test tests/*.test.mjs"
+    },
+    "packageManager": "pnpm@12.9.1"
+}

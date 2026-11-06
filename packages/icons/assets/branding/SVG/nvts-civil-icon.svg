@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Civil</title>
+  <desc id="desc">Icono oficial de NVTS-Civil, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#49266F"/>
+  
+<g fill="none" stroke="#D0B0FF" stroke-width="28" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M86 145c70-55 115-55 170 0s100 55 170 0 M86 215c70-55 115-55 170 0s100 55 170 0 M86 285c70-55 115-55 170 0s100 55 170 0 M86 355c70-55 115-55 170 0s100 55 170 0"/>
+  <path d="M213 103l-33 306 M299 103l33 306"/>
+</g>
+</svg>

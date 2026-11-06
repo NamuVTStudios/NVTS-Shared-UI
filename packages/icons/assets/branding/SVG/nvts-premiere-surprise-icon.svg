@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-PremiereSurprise</title>
+  <desc id="desc">Icono oficial de NVTS-PremiereSurprise, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#805008"/>
+  
+<g fill="none" stroke="#FFE08A" stroke-width="32" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M92 143h328 M92 256h328 M92 369h328"/>
+  <path d="M116 143v-31h92v62h-92z M238 256v-31h70v62h-70z M336 369v-31h72v62h-72z"/>
+  <path d="M250 96l72 47-72 47z" fill="#FFE08A" stroke="none"/>
+</g>
+</svg>

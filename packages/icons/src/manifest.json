@@ -1,0 +1,381 @@
+{
+  "package": "@nvts/icons",
+  "version": "0.1.0",
+  "source": "Extracted from the NVTS-PhotoMania repository and existing NVTS brand assets.",
+  "ui": {
+    "universal": [
+      "apply.svg",
+      "arrow-left.svg",
+      "arrow-right.svg",
+      "browse.svg",
+      "clear.svg",
+      "close.svg",
+      "delete.svg",
+      "duplicate.svg",
+      "edit.svg",
+      "export.svg",
+      "file.svg",
+      "folder-open.svg",
+      "folder.svg",
+      "help.svg",
+      "history-item.svg",
+      "history.svg",
+      "import.svg",
+      "link.svg",
+      "move-down.svg",
+      "move-up.svg",
+      "new-project.svg",
+      "open-file.svg",
+      "panels-visible.svg",
+      "panels.svg",
+      "plus.svg",
+      "pop-out.svg",
+      "preferences.svg",
+      "project-name.svg",
+      "recent.svg",
+      "save-as.svg",
+      "save.svg",
+      "select.svg",
+      "view.svg"
+    ],
+    "specialized": {
+      "image-effects": [
+        "blur.svg",
+        "brightness-down.svg",
+        "brightness-up.svg",
+        "contrast.svg",
+        "edge-detect.svg",
+        "effects.svg",
+        "filter.svg",
+        "invert.svg",
+        "noise.svg",
+        "pixelate.svg",
+        "posterize.svg",
+        "saturation.svg",
+        "sepia.svg",
+        "sharpen.svg",
+        "solarize.svg",
+        "sun.svg",
+        "threshold.svg",
+        "vignette.svg"
+      ],
+      "animation-timeline": [
+        "frame-first.svg",
+        "frame-next.svg",
+        "frame-previous.svg",
+        "pause.svg",
+        "play.svg",
+        "storyboard.svg",
+        "timeline.svg"
+      ],
+      "workspaces-templates": [
+        "ratio-lock.svg",
+        "ruler-horizontal.svg",
+        "ruler-vertical.svg",
+        "template-animation.svg",
+        "template-comic.svg",
+        "template-print.svg",
+        "template-screen.svg",
+        "template-social.svg",
+        "template-storyboard.svg",
+        "template-texture.svg",
+        "workspace-animation.svg",
+        "workspace-comics.svg",
+        "workspace-general.svg",
+        "workspace-illustration.svg",
+        "workspace-image.svg",
+        "workspace-storyboard.svg",
+        "workspace-vector.svg",
+        "workspace.svg"
+      ],
+      "plugins-cloud": [
+        "device.svg",
+        "drop-paste.svg",
+        "dropbox.svg",
+        "google-drive.svg",
+        "plugin-install.svg",
+        "plugin-manage.svg",
+        "plugins.svg"
+      ],
+      "layer-effects": [
+        "layer.svg",
+        "style-bevel.svg",
+        "style-color-overlay.svg",
+        "style-gradient-overlay.svg",
+        "style-outer-glow.svg",
+        "style-stroke.svg"
+      ]
+    },
+    "usage": {
+      "universal": [
+        "NVTS-PhotoMania",
+        "NVTS-MixerDAW",
+        "NVTS-PremiereSurprise",
+        "NVTS-MultiEncoder",
+        "NVTS-FusionFX",
+        "NVTS-Vectorize",
+        "NVTS-Docs",
+        "NVTS-Sheets",
+        "NVTS-Deck",
+        "NVTS-Pixelize",
+        "NVTS-Designer",
+        "NVTS-Oven",
+        "NVTS-FigGUI",
+        "NVTS-GameEngine",
+        "NVTS-SimulationEngine",
+        "NVTS-Symphony",
+        "NVTS-CAD",
+        "NVTS-Works",
+        "NVTS-PDF",
+        "NVTS-Light",
+        "NVTS-Codex",
+        "NVTS-Civil",
+        "NVTS-BIM",
+        "NVTS-ProtoType",
+        "NVTS-Matrix",
+        "NVTS-Launcher"
+      ],
+      "specialized": {
+        "image-effects": [
+          "NVTS-PhotoMania",
+          "NVTS-Light",
+          "NVTS-PremiereSurprise",
+          "NVTS-FusionFX",
+          "NVTS-Pixelize"
+        ],
+        "animation-timeline": [
+          "NVTS-MixerDAW",
+          "NVTS-PremiereSurprise",
+          "NVTS-Pixelize",
+          "NVTS-Deck",
+          "NVTS-Oven",
+          "NVTS-GameEngine",
+          "NVTS-SimulationEngine",
+          "NVTS-Symphony",
+          "NVTS-FusionFX"
+        ],
+        "workspaces-templates": [
+          "NVTS-PhotoMania",
+          "NVTS-Designer",
+          "NVTS-Pixelize",
+          "NVTS-Symphony",
+          "NVTS-PremiereSurprise",
+          "NVTS-GameEngine",
+          "NVTS-Oven",
+          "NVTS-Deck"
+        ],
+        "plugins-cloud": [
+          "NVTS-PhotoMania",
+          "NVTS-Codex",
+          "NVTS-GameEngine",
+          "NVTS-Oven",
+          "NVTS-MixerDAW"
+        ],
+        "layer-effects": [
+          "NVTS-PhotoMania",
+          "NVTS-FusionFX",
+          "NVTS-Light"
+        ]
+      }
+    }
+  },
+  "tools": {
+    "categories": {
+      "navigation": [
+        "hand.svg",
+        "move.svg",
+        "zoom-fit.svg",
+        "zoom-in.svg",
+        "zoom-out.svg"
+      ],
+      "raster-paint": [
+        "brush.svg",
+        "clone-stamp.svg",
+        "eraser.svg",
+        "eyedropper.svg",
+        "fill.svg",
+        "gradient.svg",
+        "liquify.svg",
+        "smudge.svg"
+      ],
+      "pixel-shapes": [
+        "pixel-bezier.svg",
+        "pixel-polygon.svg",
+        "pixel-polyline.svg",
+        "pixel-rounded-rectangle.svg",
+        "pixel-spiral.svg",
+        "pixel-star.svg"
+      ],
+      "vector-shapes": [
+        "vector-ellipse.svg",
+        "vector-freehand.svg",
+        "vector-line.svg",
+        "vector-pen.svg",
+        "vector-polygon.svg",
+        "vector-polyline.svg",
+        "vector-rectangle.svg",
+        "vector-rounded-rectangle.svg",
+        "vector-select.svg",
+        "vector-spiral.svg",
+        "vector-star.svg"
+      ],
+      "parametric-shapes": [
+        "shape-bezier.svg",
+        "shape-ellipse.svg",
+        "shape-freehand.svg",
+        "shape-line.svg",
+        "shape-polygon.svg",
+        "shape-polyline.svg",
+        "shape-rectangle.svg",
+        "shape-rounded-rectangle.svg",
+        "shape-spiral.svg",
+        "shape-star.svg"
+      ],
+      "layers-and-objects": [
+        "delete.svg",
+        "duplicate.svg",
+        "file-layer.svg",
+        "fill-layer.svg",
+        "filter-layer.svg",
+        "group-layer-open.svg",
+        "group-layer.svg",
+        "layers.svg",
+        "lock.svg",
+        "move-down.svg",
+        "move-up.svg",
+        "paint-layer.svg",
+        "plus.svg",
+        "style-mask.svg",
+        "text-layer.svg",
+        "unlock.svg",
+        "vector-layer.svg"
+      ],
+      "text-and-basic-shapes": [
+        "ellipse.svg",
+        "line.svg",
+        "rectangle.svg",
+        "shape-text.svg",
+        "text.svg"
+      ],
+      "comics": [
+        "comic-panel.svg"
+      ]
+    },
+    "usage": {
+      "navigation": [
+        "NVTS-PhotoMania",
+        "NVTS-Vectorize",
+        "NVTS-FigGUI",
+        "NVTS-Designer",
+        "NVTS-Oven",
+        "NVTS-GameEngine",
+        "NVTS-SimulationEngine",
+        "NVTS-CAD",
+        "NVTS-Civil",
+        "NVTS-BIM",
+        "NVTS-Matrix",
+        "NVTS-FusionFX",
+        "NVTS-Pixelize",
+        "NVTS-Symphony"
+      ],
+      "raster-paint": [
+        "NVTS-PhotoMania",
+        "NVTS-Pixelize",
+        "NVTS-Light",
+        "NVTS-FusionFX",
+        "NVTS-Symphony"
+      ],
+      "pixel-shapes": [
+        "NVTS-PhotoMania",
+        "NVTS-Pixelize",
+        "NVTS-Symphony",
+        "NVTS-FusionFX"
+      ],
+      "vector-shapes": [
+        "NVTS-Vectorize",
+        "NVTS-FigGUI",
+        "NVTS-FusionFX",
+        "NVTS-Designer",
+        "NVTS-Deck",
+        "NVTS-Symphony",
+        "NVTS-CAD",
+        "NVTS-Civil",
+        "NVTS-BIM",
+        "NVTS-ProtoType",
+        "NVTS-Matrix",
+        "NVTS-GameEngine"
+      ],
+      "parametric-shapes": [
+        "NVTS-Vectorize",
+        "NVTS-FigGUI",
+        "NVTS-FusionFX",
+        "NVTS-Designer",
+        "NVTS-Deck",
+        "NVTS-Symphony",
+        "NVTS-CAD",
+        "NVTS-Civil",
+        "NVTS-BIM",
+        "NVTS-ProtoType",
+        "NVTS-Matrix"
+      ],
+      "layers-and-objects": [
+        "NVTS-PhotoMania",
+        "NVTS-FusionFX",
+        "NVTS-Pixelize",
+        "NVTS-Symphony",
+        "NVTS-Oven",
+        "NVTS-PremiereSurprise",
+        "NVTS-Designer",
+        "NVTS-Deck",
+        "NVTS-Vectorize",
+        "NVTS-FigGUI",
+        "NVTS-GameEngine"
+      ],
+      "text-and-basic-shapes": [
+        "NVTS-PhotoMania",
+        "NVTS-Vectorize",
+        "NVTS-Designer",
+        "NVTS-Deck",
+        "NVTS-FigGUI",
+        "NVTS-Symphony",
+        "NVTS-PremiereSurprise",
+        "NVTS-FusionFX"
+      ],
+      "comics": [
+        "NVTS-PhotoMania"
+      ]
+    }
+  },
+  "brand": [
+    "nvts-photo-mania-icon",
+    "nvts-mixer-daw-icon",
+    "nvts-premiere-surprise-icon",
+    "nvts-multi-encoder-icon",
+    "nvts-fusion-fx-icon",
+    "nvts-vectorize-icon",
+    "nvts-docs-icon",
+    "nvts-sheets-icon",
+    "nvts-deck-icon",
+    "nvts-pixelize-icon",
+    "nvts-designer-icon",
+    "nvts-oven-icon",
+    "nvts-fig-gui-icon",
+    "nvts-game-engine-icon",
+    "nvts-simulation-engine-icon",
+    "nvts-symphony-icon",
+    "nvts-cad-icon",
+    "nvts-works-icon",
+    "nvts-pdf-icon",
+    "nvts-light-icon",
+    "nvts-codex-icon",
+    "nvts-civil-icon",
+    "nvts-bim-icon",
+    "nvts-prototype-icon",
+    "nvts-matrix-icon",
+    "nvts-launcher-icon"
+  ],
+  "notes": [
+    "The usage mapping is a suggested starting point, not a declaration that each listed program already implements the tool.",
+    "SVGs are kept unchanged; review stroke/fill colors for light/dark themes before publishing."
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-MixerDAW</title>
+  <desc id="desc">Icono oficial de NVTS-MixerDAW, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#805008"/>
+  
+<g fill="#FFE08A">
+  <path d="M91 246h48v122H91z M91 160h48v58H91z"/>
+  <path d="M166 116h48v252h-48z"/>
+  <path d="M241 194h48v174h-48z M241 116h48v46h-48z"/>
+  <path d="M316 142h48v226h-48z"/>
+  <path d="M391 218h48v150h-48z M391 142h48v44h-48z"/>
+</g>
+</svg>

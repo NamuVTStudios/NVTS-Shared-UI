@@ -1,0 +1,6 @@
+NVTS SHARED ICON ASSETS
+
+Program logos: branding/png/ and branding/svg/ (26 identities).
+Tool icons: tools/ (63 SVG, categorized by function).
+Interface icons: ui/universal/ and ui/specialized/ (95 SVG).
+The PhotoMania application also keeps its source-specific tool icons in apps/web/src/icons/tools/.

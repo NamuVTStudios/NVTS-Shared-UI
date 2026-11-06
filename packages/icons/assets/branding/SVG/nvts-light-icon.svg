@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Light</title>
+  <desc id="desc">Icono oficial de NVTS-Light, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#103D70"/>
+  
+<g fill="none" stroke="#83C8FF" stroke-width="28" stroke-linecap="square" stroke-linejoin="bevel">
+  <circle cx="256" cy="256" r="154"/>
+  <circle cx="256" cy="256" r="62"/>
+  <path d="M256 102l74 62-13 92-87 0-48-81z M410 256l-62 74-92-13v-87l81-48z M256 410l-74-62 13-92h87l48 81z M102 256l62-74 92 13v87l-81 48z"/>
+</g>
+</svg>

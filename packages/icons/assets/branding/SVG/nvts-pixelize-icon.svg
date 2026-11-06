@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Pixelize</title>
+  <desc id="desc">Icono oficial de NVTS-Pixelize, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#74101C"/>
+  
+<g fill="#FF7885">
+ <rect x="88" y="91" width="86" height="86"/><rect x="213" y="91" width="86" height="86"/><rect x="338" y="91" width="86" height="86"/>
+ <rect x="88" y="213" width="86" height="86"/><rect x="213" y="213" width="86" height="86"/><rect x="338" y="213" width="86" height="86"/>
+ <rect x="88" y="338" width="86" height="86"/><rect x="213" y="338" width="86" height="86"/><path d="M338 338h86v86h-86z"/>
+</g>
+</svg>

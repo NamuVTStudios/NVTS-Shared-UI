@@ -1,0 +1,19 @@
+{
+  "name": "@nvts/icons",
+  "version": "0.1.0",
+  "description": "Iconos SVG e identidades gráficas de NamuVT Studios",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "assets",
+    "src"
+  ],
+  "exports": {
+    "./ui/*": "./assets/ui/*",
+    "./tools/*": "./assets/tools/*",
+    "./brand/png/*": "./assets/branding/png/*",
+    "./brand/svg/*": "./assets/branding/svg/*",
+    "./manifest": "./src/manifest.json"
+  }
+}

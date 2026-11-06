@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Oven</title>
+  <desc id="desc">Icono oficial de NVTS-Oven, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#155334"/>
+  
+<g fill="none" stroke="#9BE7B1" stroke-width="32" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M256 83l157 88v172l-157 88-157-88V171z"/>
+  <path d="M99 171l157 91 157-91 M256 262v169 M177 126l157 91v88"/>
+</g>
+</svg>

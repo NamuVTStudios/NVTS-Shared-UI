@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Docs</title>
+  <desc id="desc">Icono oficial de NVTS-Docs, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#103D70"/>
+  
+<g fill="none" stroke="#83C8FF" stroke-width="32" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M135 92h162l82 82v246H135z"/>
+  <path d="M297 92v83h82"/>
+  <path d="M190 237h134 M190 298h134 M190 359h91"/>
+</g>
+</svg>

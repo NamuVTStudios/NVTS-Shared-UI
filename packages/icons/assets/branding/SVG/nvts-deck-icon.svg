@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Deck</title>
+  <desc id="desc">Icono oficial de NVTS-Deck, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#103D70"/>
+  
+<g fill="none" stroke="#83C8FF" stroke-width="32" stroke-linecap="square" stroke-linejoin="bevel">
+  <rect x="75" y="104" width="362" height="260"/>
+  <path d="M256 364v61 M166 425h180"/>
+</g>
+<path d="M222 172l112 62-112 62z" fill="#83C8FF"/>
+</svg>

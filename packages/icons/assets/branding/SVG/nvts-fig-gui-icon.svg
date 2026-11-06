@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-FigGUI</title>
+  <desc id="desc">Icono oficial de NVTS-FigGUI, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#74101C"/>
+  
+<g fill="none" stroke="#FF7885" stroke-width="30" stroke-linecap="square" stroke-linejoin="bevel">
+  <rect x="78" y="92" width="356" height="328"/>
+  <path d="M78 166h356 M130 92v74"/>
+  <path d="M170 268h75l50 54h54"/>
+  <circle cx="170" cy="268" r="25" fill="#74101C"/><circle cx="349" cy="322" r="25" fill="#74101C"/>
+  <path d="M131 132h2 M171 132h2 M211 132h2"/>
+</g>
+</svg>

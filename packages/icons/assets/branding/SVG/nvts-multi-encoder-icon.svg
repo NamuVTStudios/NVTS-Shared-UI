@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-MultiEncoder</title>
+  <desc id="desc">Icono oficial de NVTS-MultiEncoder, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#805008"/>
+  
+<g fill="none" stroke="#FFE08A" stroke-width="32" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M153 156c42-54 125-69 183-31 29 19 48 47 57 78"/>
+  <path d="M363 131l32 72-77-4"/>
+  <path d="M359 354c-42 54-125 69-183 31-29-19-48-47-57-78"/>
+  <path d="M149 379l-32-72 77 4"/>
+  <path d="M202 202h108l-22 34 22 34H202z"/>
+</g>
+</svg>

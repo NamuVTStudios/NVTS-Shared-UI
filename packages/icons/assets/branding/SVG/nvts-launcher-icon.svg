@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NVTS-Launcher</title>
+  <desc id="desc">Icono oficial de NVTS-Launcher, parte de la identidad visual de NamuVT Studios.</desc>
+  <rect x="21" y="21" width="470" height="470" rx="120" ry="120" fill="#87390B"/>
+  
+<g fill="#FFC08A">
+  <path d="M256 75l103 164-66-17v120h-82V222l-66 17z"/>
+  <path d="M109 345h75v56h-75z M328 345h75v56h-75z M194 345h124v56H194z"/>
+  <path d="M154 429h204v28H154z"/>
+</g>
+</svg>
