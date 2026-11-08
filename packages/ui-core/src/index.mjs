@@ -9,3 +9,5 @@ export { createDockWorkspace } from './workspace/createDockWorkspace.mjs';
 export { TimelineModel } from './timeline/TimelineModel.mjs';
 export { createTimelineView } from './timeline/createTimelineView.mjs';
 export { createHistoryList } from './timeline/createHistoryList.mjs';
+export { createTemplateGallery } from './templates/createTemplateGallery.mjs';
+export { mountTemplateGallery } from './templates/mountTemplateGallery.mjs';

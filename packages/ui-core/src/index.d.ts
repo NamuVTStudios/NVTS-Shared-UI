@@ -26,3 +26,54 @@ export declare function createToolPalette(options?: { label?: string; className?
 export declare function createDockWorkspace(options?: { className?: string; label?: string; panelIds?: string[] }): { element: HTMLElement; registerPanel: (panelId: string, content?: Node, options?: { title?: string }) => { element: HTMLElement; header: HTMLElement; body: HTMLElement }; movePanel: (panelId: string, targetIndex: number) => string[]; restore: (panelIds: string[]) => string[]; serialize: () => string[]; destroy: () => void };
 export declare function createTimelineView(model: TimelineModel, options?: { className?: string; label?: string; title?: string; getLabel?: (item: any) => string }): { element: HTMLElement; refresh: () => void; destroy: () => void };
 export declare function createHistoryList(options?: { className?: string; label?: string; entries?: Array<{ id?: string; label?: string; name?: string }>; activeIndex?: number; onSelect?: (entry: any, index: number) => void }): { element: HTMLOListElement; update: (entries: Array<{ id?: string; label?: string; name?: string }>, activeIndex?: number) => void; getActiveIndex: () => number };
+
+
+export interface TemplateGalleryItem {
+    id: string;
+    title?: string;
+    name?: string;
+    category: string;
+    width: number;
+    height: number;
+    unit?: string;
+    icon?: string;
+    preview?: 'square' | 'portrait' | 'landscape';
+}
+
+export interface TemplateGalleryOptions {
+    templates?: readonly TemplateGalleryItem[];
+    selectedId?: string | null;
+    className?: string;
+    label?: string;
+    filterLabel?: string;
+    allCategoriesLabel?: string;
+    emptyMessage?: string;
+    documentRef?: Document;
+    onSelect?: (template: TemplateGalleryItem) => void;
+}
+
+export declare function createTemplateGallery(options?: TemplateGalleryOptions): {
+    element: HTMLElement;
+    getSelectedTemplate: () => TemplateGalleryItem | null;
+    selectTemplate: (id: string, notify?: boolean) => TemplateGalleryItem | null;
+    setTemplates: (templates: readonly TemplateGalleryItem[]) => void;
+    destroy: () => void;
+};
+
+export interface MountTemplateGalleryOptions {
+    title?: string;
+    description?: string;
+    label?: string;
+    filterLabel?: string;
+    allCategoriesLabel?: string;
+    initialSelectionMessage?: string;
+    target?: HTMLElement;
+    targetSelector?: string;
+    documentRef?: Document;
+    onSelect?: (template: TemplateGalleryItem) => void;
+}
+export declare function mountTemplateGallery(
+    root: HTMLElement,
+    templates: readonly TemplateGalleryItem[],
+    options?: MountTemplateGalleryOptions,
+): { element: HTMLElement; gallery: ReturnType<typeof createTemplateGallery>; destroy: () => void } | null;

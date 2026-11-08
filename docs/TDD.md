@@ -8,7 +8,7 @@ Provide reusable visual components, design tokens, interaction contracts, and UI
 
 - **Design tokens:** semantic light/dark tokens for surfaces, text, borders, controls, focus, typography, radii, and elevation. Each product supplies its own logo-derived accent tokens.
 - **Theme controller:** explicit `light`, `dark`, and `system` preferences; storage persistence; `prefers-color-scheme` observation; resolved theme on the document root.
-- **Components:** framework-neutral DOM primitives for buttons, panels, toolbars, menus, dialogs, focus trapping, and live announcements; tool-palette selection is also shared.
+- **Components:** framework-neutral DOM primitives for buttons, panels, toolbars, menus, dialogs, focus trapping, live announcements, and a reusable `createTemplateGallery` selector; tool-palette selection is also shared.
 - **Commands:** command registry and keyboard shortcut mapping.
 - **Workspace:** panel registration/order and serializable layout contract plus an accessible panel view with order controls. Dragging/resizing and advanced docking interactions remain future work.
 - **History and timeline:** history list component, timeline state model, and a basic timeline view with subscriptions. Product-specific timeline rendering and editing remain in the consuming product.
@@ -81,3 +81,10 @@ Provide reusable visual components, design tokens, interaction contracts, and UI
 - Run formatting, linting, type checking, tests, and production builds in CI.
 - Publish versioned artifacts with checksums and documented compatibility.
 - Do not release production artifacts from unprotected branches.
+
+## Template Selection UI
+
+- `createTemplateGallery` accepts immutable template-like definitions from Shared Core or a product-specific registry.
+- It owns category filtering, accessible selection cards, selected-state updates, and selection callbacks.
+- It does not create or mutate documents; the consuming application applies the selected template through its own domain/controller layer.
+- Keep product-specific template definitions out of Shared UI. Shared UI renders the supplied catalogue without depending on NVTS-Shared-Core.

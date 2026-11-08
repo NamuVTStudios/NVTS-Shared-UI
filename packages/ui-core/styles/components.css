@@ -454,7 +454,157 @@
 }
 
 /* ========================================================================== */
-/* 4. Responsive rules. Keep all breakpoints at the end of the stylesheet. */
+/* 4. Reusable template gallery and selection cards. */
+/* ========================================================================== */
+
+.nvts-template-gallery {
+    display: grid;
+    gap: 12px;
+    min-width: 0;
+}
+
+.nvts-template-gallery__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.nvts-template-gallery__filter-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--nvts-text-muted);
+    font-size: 0.82rem;
+}
+
+.nvts-template-gallery__filter {
+    min-height: 34px;
+    padding: 6px 10px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-control-bg);
+    color: var(--nvts-text);
+}
+
+.nvts-template-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    gap: 12px;
+    min-width: 0;
+}
+
+.nvts-template-card {
+    display: grid;
+    justify-items: start;
+    gap: 8px;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid var(--nvts-border);
+    border-radius: var(--nvts-radius-md);
+    background: var(--nvts-surface);
+    color: var(--nvts-text);
+    text-align: left;
+    cursor: pointer;
+    transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+.nvts-template-card:hover,
+.nvts-template-card:focus-visible {
+    border-color: var(--nvts-accent);
+}
+
+.nvts-template-card[aria-pressed='true'] {
+    border-color: var(--nvts-accent);
+    background: var(--nvts-accent-subtle);
+    box-shadow: inset 0 0 0 1px var(--nvts-accent);
+}
+
+.nvts-template-card__preview {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 104px;
+    border-radius: var(--nvts-radius-sm);
+    background: var(--nvts-surface-muted);
+}
+
+.nvts-template-card__paper {
+    display: block;
+    width: 58px;
+    aspect-ratio: 1;
+    border: 1px solid var(--nvts-border-strong, var(--nvts-border));
+    border-radius: 3px;
+    background: var(--nvts-surface-raised);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+}
+
+.nvts-template-card__preview--portrait .nvts-template-card__paper {
+    width: 48px;
+    aspect-ratio: 3 / 4;
+}
+
+.nvts-template-card__preview--landscape .nvts-template-card__paper {
+    width: 72px;
+    aspect-ratio: 16 / 9;
+}
+
+.nvts-template-card__icon {
+    color: var(--nvts-accent);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.nvts-template-card__title {
+    overflow: hidden;
+    max-width: 100%;
+    font-size: 0.84rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nvts-template-card__dimensions {
+    color: var(--nvts-text-muted);
+    font-size: 0.74rem;
+}
+
+.nvts-template-gallery__empty {
+    margin: 0;
+    padding: 18px;
+    color: var(--nvts-text-muted);
+    text-align: center;
+}
+
+/* ========================================================================== */
+/* 4. Shared template section and catalogue presentation. */
+/* ========================================================================== */
+
+.nvts-shared-template-section {
+    display: grid;
+    gap: 12px;
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--nvts-border);
+}
+
+.nvts-shared-template-section__title {
+    margin: 0;
+    color: var(--nvts-text);
+    font-size: 1.1rem;
+}
+
+.nvts-shared-template-section__description,
+.nvts-shared-template-section__selection {
+    margin: 0;
+    color: var(--nvts-text-muted);
+}
+
+.nvts-shared-template-section__selection {
+    font-size: 0.875rem;
+}
+
+/* ========================================================================== */
+/* 5. Responsive rules. Keep all breakpoints at the end of the stylesheet. */
 /* ========================================================================== */
 
 @media (max-width: 760px) {
