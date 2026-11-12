@@ -12,8 +12,8 @@
   "exports": {
     "./ui/*": "./assets/ui/*",
     "./tools/*": "./assets/tools/*",
-    "./brand/png/*": "./assets/branding/png/*",
-    "./brand/svg/*": "./assets/branding/svg/*",
+    "./brand/png/*": "./assets/branding/PNG/*",
+    "./brand/svg/*": "./assets/branding/SVG/*",
     "./manifest": "./src/manifest.json"
   }
 }

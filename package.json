@@ -18,8 +18,8 @@
         "./icons/manifest": "./packages/icons/src/manifest.json",
         "./icons/ui/*": "./packages/icons/assets/ui/*",
         "./icons/tools/*": "./packages/icons/assets/tools/*",
-        "./icons/brand/svg/*": "./packages/icons/assets/branding/svg/*",
-        "./icons/brand/png/*": "./packages/icons/assets/branding/png/*"
+        "./icons/brand/svg/*": "./packages/icons/assets/branding/SVG/*",
+        "./icons/brand/png/*": "./packages/icons/assets/branding/PNG/*"
     },
     "scripts": {
         "test": "node --test tests/*.test.mjs"
